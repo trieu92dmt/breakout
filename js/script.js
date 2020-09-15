@@ -34,7 +34,7 @@ $(document).ready(function(){
                 a.style.top=0;
                 a.style.left=0;
             })
-        },3);
+        },1);
         $("*").keydown(function(e){
             if (left< area.clientWidth-target.clientWidth && e.keyCode==83)
             {
