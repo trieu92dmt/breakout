@@ -33,6 +33,7 @@ $(document).ready(function(){
                 clearInterval(start);
                 a.style.top=0;
                 a.style.left=0;
+                target.style.left=0;
             })
         },1);
         $("*").keydown(function(e){
