@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+#breakout{
+    border: 1px solid red;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#ball{
+    width: 3%;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ball>img{
+    width: 100%;
+}
+#target{
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+}
